@@ -1,0 +1,11 @@
+using System;
+
+class Exercise10C#{
+    static void Main(){
+        Console.Write("Enter the first number for division: ");
+        float num1 = float.Parse(Console.ReadLine());
+        Console.Write("Enter the second number for division: ");
+        float num2 = float.Parse(Console.ReadLine());
+        Console.WriteLine("The result of division is: " + (num1 / num2));
+    }
+}

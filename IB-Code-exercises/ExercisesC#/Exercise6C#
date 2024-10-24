@@ -1,0 +1,9 @@
+using System;
+
+class Exercise6C#{
+    static void Main(){
+        Console.Write("Is it raining?");
+        bool Israining = bool.Parce(Concole.ReadLine());
+        Console.WriteLine(Israining);
+    }
+}

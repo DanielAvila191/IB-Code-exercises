@@ -1,0 +1,11 @@
+using System;
+
+class Exercise8C#{
+    static void Main(){
+        Console.Write("Enter the first number for subtraction");
+        float num1 = float.Parse(Console.ReadLine());
+        Console.Write("Enter the second number for subtraction");
+        float num2 = float.Parse(Console.ReadLine());
+        Console.WriteLine("The result of subtraction is " + (num1 - num2));
+    }
+}

@@ -1,0 +1,7 @@
+using System;
+
+class Exercise1C#{
+    static void Main(){
+        Console.Writeline("Hello, World!");
+    }
+}

@@ -1,0 +1,11 @@
+using System;
+
+class Exercise7C#{
+    static void Main(){
+        Console.Write("Enter the first number for a sum");
+        float num1 = float.Parse(Console.ReadLine());
+        Console.Write("Enter the second number for a sum");
+        float num2 = float.Parse(Console.ReadLine());
+        Console.WriteLine("The result of the sum is " + (num1 + num2));
+    }
+}

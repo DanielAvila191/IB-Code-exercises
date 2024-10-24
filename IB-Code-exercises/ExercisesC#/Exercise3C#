@@ -1,0 +1,10 @@
+using System;
+
+class Exercise3C#{
+    static void Main(){
+        Console.Write("Gicve me a number with decimals");
+        float floatVar = float.Parse(Console.ReadLine());
+        Console.WriteLine("Your number is " + floatVar);
+  
+    }
+}
