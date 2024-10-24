@@ -1,0 +1,10 @@
+public class Exercise2J {
+    import java.util.Scanner;
+    Public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Hello, please give me a number");
+        int number = keyboard.nextInt();
+        System.out.println("Your number is " + number);
+    }
+}

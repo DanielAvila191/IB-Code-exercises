@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Exercise10J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Hello, please give me 2 numbers");
+        int number1 = keyboard.nextInt();
+        int number2 = keyboard.nextInt();
+        double division = number1 / number2;
+        System.out.println("Your division is " + division);
+    }
+}

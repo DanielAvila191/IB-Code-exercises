@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Exercise3J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Hello, please give me a number, but only decimal numbers");
+        double number = keyboard.nextDouble();
+        System.out.println("Your number is " + number);
+    }
+}

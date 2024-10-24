@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Exercise6J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Hello, please tell me something");
+        String something = keyboard.nextLine();
+        System.out.println(something + " is what you said");
+    }
+}
