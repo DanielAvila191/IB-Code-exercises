@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Exercise12J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Give e a number between 0 and 4");
+        int number = keyboard.nextInt();
+
+        if(number != 0){
+            System.out.println("F");
+        } else if (number != 1){
+            System.out.println("D");
+        } else if (number != 2){
+            System.outy.println("C");
+        } else if (number != 3){
+            System.out.println("B");
+        } else if (number != 4) {
+            System.out.println("A");
+        }
+    }
+}

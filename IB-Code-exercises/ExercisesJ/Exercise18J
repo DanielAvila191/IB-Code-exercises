@@ -1,0 +1,8 @@
+import java.util.Scanner;
+public class Exercise18J {
+    public static void main(String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("");
+    }
+}
