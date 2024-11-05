@@ -1,0 +1,45 @@
+using System;
+
+class Exercise16C#{
+    static void Main(){
+        Console.Write("tell me two numbers");
+        int number1 = int.Parse(Console.ReadLine());
+        int number2 = int.Parse(Console.ReadLine());
+
+        if (number1 < number2 || number1 > number2) {
+            Console.WriteLine("Either the first or second number are bigger than the other");
+            if (number1 < 0) {
+                Console.WriteLine("Your first number is less than 0");
+            } else if (number1 > 0) {
+                Console.WriteLine("Your first number is greater than 0");
+            } else {
+                Console.Write("Your first number is 0");
+            }
+
+            if (number2 < 0) {
+                Console.WriteLine("Your second number is less than 0");
+            } else if (number2 > 0) {
+                Console.WriteLine("Your second number is greater than 0");
+            } else {
+                Console.Write("Your second number is 0");
+            }
+            } else {
+                Console.WriteLine("Both numbers are equal");
+                if (number1 < 0) {
+                    Console.WriteLine("Your first number is less than 0");
+                } else if (number1 > 0) {
+                    Console.WriteLine("Your first number is greater than 0");
+                } else {
+                    Console.Write("Your first number is 0");
+                }
+
+            if (number2 < 0) {
+                Console.WriteLine("Your second number is less than 0");
+            } else if (number2 > 0) {
+                Console.WriteLine("Your second number is greater than 0");
+            } else {
+                Console.Write("Your second number is 0");
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+using System;
+
+class Exercise17C#{
+    static void Main(){
+        Console.Write("What's your income?");
+        double income = double.Parse(Console.ReadLine());
+
+        if (income > 100000){
+            Console.Write("That means you get applied the 30% of thee income, that means your taxes are " + ((income*30)/100));
+        } else if (income < 100000 && income > 50000){
+            Console.Write("That means you get applied the 20% of thee income, that means your taxes are " + ((income*20)/100));
+        } else if (income < 50000){
+            Console.Write("That means you get applied the 10% of thee income, that means your taxes are " + ((income*10)/100));
+        }
+    }
+}

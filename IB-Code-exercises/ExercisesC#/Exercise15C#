@@ -1,0 +1,14 @@
+using System;
+
+class Exercise15C#{
+    static void Main(){
+        Console.Write("Tell me your age");
+        int age = int.Parse(Console.ReadLine());
+
+        if (age >= 18){
+            Console.Write("You are eligible to vote");
+        } else{
+            Console.Write("You aren't eligible to vote");
+        }
+    }
+}
