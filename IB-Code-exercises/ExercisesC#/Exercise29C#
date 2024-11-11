@@ -1,0 +1,12 @@
+using System;
+
+class ArrayElements {
+    static void Main() {
+        int[] numbers = {2, 4, 6, 8, 10};
+
+        Console.WriteLine("Array elements:");
+        foreach (int number in numbers) { // Foreach loop
+            Console.WriteLine(number);
+        }
+    }
+}

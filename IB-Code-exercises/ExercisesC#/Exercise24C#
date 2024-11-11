@@ -1,0 +1,9 @@
+using System;
+
+class Exercise24C#{
+    static void Main(){
+        for (int i = 10; i > 0; i--){
+            Console.Write((i+1));
+        }
+    }
+}

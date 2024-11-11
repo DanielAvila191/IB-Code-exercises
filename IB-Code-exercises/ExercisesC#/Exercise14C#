@@ -5,7 +5,7 @@ class Exercise14C#{
         Console.Write("Hey, give me a number");
         int number = int.Parse(Console.ReadLine());
 
-        if (number/2){
+        if (number%2 == 0){
             Console.Write("Even");
         } else{
             Console.Write("Odd");

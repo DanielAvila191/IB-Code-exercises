@@ -6,9 +6,9 @@ public class Exercise13J {
         System.out.println("Tell me a year");
         int year = keyboard.nextInt();
 
-        if (year/4){
-            if (year/400){
-                if (year/100){
+        if (year % 4 == 0){
+            if (year % 400 == 0){
+                if (year % 100 == 0){
                     system.out.println("is a leapyear");
                 } else{
                     System.out.println("it is not a leapyear");
