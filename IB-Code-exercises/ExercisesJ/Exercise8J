@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Exercise8J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+        
+        System.out.println("Is it raining?");
+        boolean israining = keyboard.nextBoolean();
+
+        System.out.println(israining);
+       }
+}

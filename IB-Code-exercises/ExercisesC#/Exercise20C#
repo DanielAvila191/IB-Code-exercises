@@ -1,0 +1,24 @@
+using System;
+
+class Exercise20C#{
+    static void Main(){
+        Console.Write("How many minutes have you used for phone calls?");
+        double minutes = double.Parse(Console.ReadLine());
+
+        double charge = 0;
+        charge = charge + minutes + 10;
+
+        if (minutes >= 0 && minutes <= 100){
+            Console.Write("Your charge is $" + charge);
+        } else if (minutes >= 101 && minutes <= 200){
+            charge = charge + 0.5;
+            Console.Write("Your charge is $" + charge);
+        } else if (minutes >= 201 && minutes <= 300){
+            charge = charge + 0.75;
+            Console.Write("Your charge is $" + charge);
+        } else if (minutes > 300){
+            charge = charge + 1(minutes-300);
+            Console.Write("Your charge is $" + charge);
+        }
+    }
+}

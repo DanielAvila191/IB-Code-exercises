@@ -1,0 +1,20 @@
+using System;
+
+class Exercise13C#{
+    static void Main(){
+        Console.Write("Tell me a year");
+        int year = int.Parse(Console.ReadLine());
+
+        if (year % 4 == 0){
+            if (year % 400  == 0){
+                if (year % 100 == 0){
+                    Console.Write("is a leapyear");
+                } else{
+                    Console.Write("it is not a leapyear");
+                }
+            } else{
+                Console.Write("is a leapyear");
+            }
+        }
+    }
+}

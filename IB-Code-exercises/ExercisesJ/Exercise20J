@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Exercise20J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("How many minutes have you used for phone calls?");
+        double minutes = keyboard.nextInt();
+
+        double charge = 0;
+        charge = charge + minutes + 10;
+
+        if (minutes >= 0 && minutes <= 100){
+            System.out.println("Your charge is $" + charge);
+        } else if (minutes >= 101 && minutes <= 200){
+            charge = charge + 0.5;
+            System.out.println("Your charge is $" + charge);
+        } else if (minutes >= 201 && minutes <= 300){
+            charge = charge + 0.75;
+            System.out.println("Your charge is $" + charge);
+        } else if (minutes > 300){
+            charge = charge + 1(minutes-300);
+            System.out.println("Your charge is $" + charge);
+        }
+    }
+}

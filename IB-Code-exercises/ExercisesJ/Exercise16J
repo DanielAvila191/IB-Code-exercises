@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class Exercise16J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("tell me two numbers");
+        int number1 = keyboard.nextInt();
+        int number2 = keyboard.nextInt();
+
+        if (number1 < number2 || number1 > number2){
+            System.out.println("Either the first or second number are bigger than the other");
+            if(number1 < 0){
+                System.out.println("Your first number is minus than 0");
+            } else if (number1 > 0){
+                System.out.println("Your first numbers un greater than 0");
+            } else{
+                System.out.print("your first number is 0";)
+            }
+
+            if(number2 < 0){
+                System.out.println("Your second number is minus than 0");
+            } else if (number2 > 0){
+                System.out.println("Your second numbers un greater than 0");
+            } else{
+                System.out.print("your second number is 0";)
+            }
+        } else{
+            System.out.println("Both numbers are equal");
+            if(number1 < 0){
+                System.out.println("Your first number is minus than 0");
+            } else if (number1 > 0){
+                System.out.println("Your first numbers un greater than 0");
+            } else{
+                System.out.print("your first number is 0";)
+            }
+
+            if(number2 < 0){
+                System.out.println("Your second number is minus than 0");
+            } else if (number2 > 0){
+                System.out.println("Your second numbers un greater than 0");
+            } else{
+                System.out.print("your second number is 0";)
+            }
+        }
+    }
+}

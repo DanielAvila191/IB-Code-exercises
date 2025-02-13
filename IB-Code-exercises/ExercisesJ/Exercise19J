@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Exercise19J {
+    public sattic void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Hey, give me the units number");
+        int units = keyboard.nextInt();
+
+        if (units <= 100){
+            System.out.println("That means your bill is $" + units);
+        } else if (units >= 101 && units <= 200){
+            System.out.println("That means your bill is $" + (units*1.5));
+        } else if (units >= 201 && units <= 300){
+            System.out.println("That means your bill is $" + (units*2));
+        } else if (units > 300){
+            System.out.println("That means your bill is $" + (units*3));
+        }
+    }
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Exercise11J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Hey, give me a number");
+        int number = keyboard.nextInt();
+
+        if(number < 0){
+            System.out.println("Your number is minus than 0");
+        } else if (number > 0){
+            System.out.println("Your numbers un greater than 0");
+        } else{
+            System.out.print("your number is 0";)
+        }
+    }
+}

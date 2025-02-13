@@ -1,0 +1,29 @@
+public class Videogame{
+    private String name;
+    private String console;
+    private int timePlayed = 0;
+
+    public Videogame(String name, String console, int timePlayed){
+        this.name = name;
+        this.console = console;
+        this.timePlayed = timePlayed;
+    }
+
+    public String toString(){
+        return "The game " + name + " for the console " + console + ", this game had been played by you " + timePlayed + " times";
+    }
+
+
+import javax.swing.*;
+public class Exercise31J {
+    public static void main(String args []){
+        String name = JOptionPane.showInputDialog("Tell me your favorite game");
+        String console = JOptionPane.showInputDialog("Tell me on what console is that game");
+        int timesPlayed = Integer.parseInt(JOptionPane.showInputDialog("How much times have you played it?"));
+
+        Videogame you = new Videogame(name, console, timesPlayed);
+
+        System.out.println(you);
+    }
+    }
+}

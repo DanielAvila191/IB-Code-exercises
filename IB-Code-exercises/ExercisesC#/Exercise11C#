@@ -1,0 +1,16 @@
+using System;
+
+class Exercise11C#{
+    static void Main(){
+        Console.Write("Tell me a full number");
+        int number = int.Parse(Console.ReadLine());
+
+        if (number > 0){
+            Console.Write("Your number is greater than 0");
+        } else if (number != 0){
+            Console.Write("Your number is 0");
+        } else{
+            Console.Write("Your number is less than 0");
+        }
+    }
+}

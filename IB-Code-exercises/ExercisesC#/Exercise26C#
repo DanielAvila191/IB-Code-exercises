@@ -1,0 +1,13 @@
+using System;
+
+class Exercise26C#{
+    static void Main(){
+        Console.Write("Hey, tell me a number, and I will tell you its factorial");
+        int number = int.Parse(Console.ReadLine());
+        long factorial = 1;
+        for (int i = 1; i <= number; ++i){
+            factorial *= i;
+        }
+        Console.Write("The factorial of " + number + " is " + factorial);
+    }
+}

@@ -1,0 +1,9 @@
+using System;
+
+class exercise4C#{
+    static void Main(){
+        Console.Write("Give me a letter");
+        char character = char.Parse(Console.ReadLine());
+        Console.WriteLine("Your letter is " + character);
+    }
+}

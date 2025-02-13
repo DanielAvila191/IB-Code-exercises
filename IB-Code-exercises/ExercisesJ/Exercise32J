@@ -1,0 +1,67 @@
+public class Car{
+    private String brand;
+    private String model;
+    private int vel = 0;
+
+    public Car(String brand, String model, int vel){
+        this.brand = brand;
+        this.model = model;
+        this.vel = vel;
+    }
+
+    public Car(String brand, String model, int vel){
+        this(brand, model, 60);
+    }
+
+    public Car(String brand, String model, int vel){
+        this(brand, "Escape", vel);
+    }
+
+    public Car(String brand, String model, int vel){
+        this("Ford", model, vel);
+    }
+
+    public void showInformation(){
+        System.out.println("Your cars is a " + brand + " " + model + " and now it's actual velocity is " + vel + " km/h");
+    }
+
+    public void accelerate(int quantity){
+        vel += quantity;
+    }
+
+    public void brake(int quantity){
+        vel-= quantity;
+    }
+
+    public void accelerate(int quantity){
+        quantity = 20;
+    }
+
+    public void brake(int quantity){
+        quantity = 20;
+    }    
+
+
+    import javax.swing.*;
+    public static void main (String args[]){
+        String brand = JOptionPane.showInputDialog("Tell me your cars brand");
+        String model = JOptionPane.showInputDialog("Now tell me its model");
+        int vel = Integer.parseInt(JOptionPane.showInputDialog("At what velocity is at while you are driving it?"));
+
+        Car you = new Car(brand, model, vel);
+        
+        you.showInformation();
+
+        you.accelerate(80);
+        you.showInformation();
+        
+        you.brake(50);
+        you.showInformation();
+
+        you.accelerate();
+        you.showInformation();
+
+        you.brake();
+        you.showInformation();
+
+    }

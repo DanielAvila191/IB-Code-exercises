@@ -1,0 +1,18 @@
+using System;
+
+class Exercise19C#{
+    static void Main(){
+        Console.Write("Hey, give me the units number");
+        int units = int.Parse(Console.ReadLine());
+
+        if (units <= 100){
+            Console.Write("That means your bill is $" + units);
+        } else if (units >= 101 && units <= 200){
+            Console.Write("That means your bill is $" + (units*1.5));
+        } else if (units >= 201 && units <= 300){
+            Console.Write("That means your bill is $" + (units*2));
+        } else if (units > 300){
+            Console.Write("That means your bill is $" + (units*3));
+        }
+    }
+}

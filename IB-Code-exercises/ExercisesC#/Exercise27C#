@@ -1,0 +1,12 @@
+using System;
+
+class Exercise27C#{
+    static void Main(){
+        Console.Write("Hey, tell me something");
+        string something = string.Parse(Console.ReadLine());
+
+        foreach (char c in input){
+            Console.WriteLine(c);
+        }
+    }
+}

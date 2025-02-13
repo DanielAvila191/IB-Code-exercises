@@ -1,0 +1,9 @@
+using System;
+
+class Exercise2C#{
+    static void Main(){
+        Concole.Write("Enter a number");
+        int number = int.Parce(Concole.ReadLine());
+        Concole.WriteLine("Your number is " + number);
+    }
+}

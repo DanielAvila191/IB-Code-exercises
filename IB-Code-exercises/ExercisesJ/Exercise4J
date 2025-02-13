@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Exercise4J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Hello, please give me a letter");
+        char character = keyboard.next().charAt(0);
+        System.out.println("Your letter was " + character);
+    }
+}

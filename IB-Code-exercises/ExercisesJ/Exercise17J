@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Exercise17J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("What's your income?");
+        double income = nextDouble();
+
+        if (income > 100000){
+            System.out.println("That means you get applied the 30% of thee income, that means your taxes are " + ((income*30)/100));
+        } else if (income < 100000 && income > 50000){
+            System.out.println("That means you get applied the 20% of thee income, that means your taxes are " + ((income*20)/100));
+        } else if (income < 50000){
+            System.out.println("That means you get applied the 10% of thee income, that means your taxes are " + ((income*10)/100));
+        }
+    }
+}

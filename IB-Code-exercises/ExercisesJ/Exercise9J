@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Exercise9J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Hello, please give me 2 numbers");
+        int number1 = keyboard.nextInt();
+        int number2 = keyboard.nextInt();
+        int multiplication = number1 * number2;
+        System.out.println("Your multiplication is " + multiplication);
+    }
+}

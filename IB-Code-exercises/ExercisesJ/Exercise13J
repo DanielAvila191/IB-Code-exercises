@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Exercise13J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.println("Tell me a year");
+        int year = keyboard.nextInt();
+
+        if (year % 4 == 0){
+            if (year % 400 == 0){
+                if (year % 100 == 0){
+                    system.out.println("is a leapyear");
+                } else{
+                    System.out.println("it is not a leapyear");
+                }
+            } else{
+                system.out.println("is a leapyear");
+            }
+        }
+    }
+}

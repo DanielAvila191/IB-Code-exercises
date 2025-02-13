@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Exercise7J {
+    public static void main (String args[]){
+        Scanner keyboard = new Scanner(System.in);
+        
+        System.out.println("Hello, please give me 2 numbers");
+        int number1 = keyboard.nextInt();
+        int number2 = keyboard.nextInt();
+        int sum = number1 + number2;
+        System.out.println("Your sum is " + sum);
+    }
+}

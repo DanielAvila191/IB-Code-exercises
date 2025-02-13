@@ -1,0 +1,9 @@
+using System;
+
+class Exercise5C#{
+    static void Main(){
+        Concole.Write("Tell me something");
+        string something = Concole.Readline();
+        Concole.WriteLine(something + " is what you said");
+    }
+}

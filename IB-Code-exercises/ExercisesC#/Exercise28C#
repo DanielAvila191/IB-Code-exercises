@@ -1,0 +1,13 @@
+using System;
+
+class Exercise28C# {
+    static void Main() {
+        int sum = 0;
+
+        for (int i = 1; i <= 20; i += 2) { // Loop through odd numbers
+            sum += i;
+        }
+
+        Console.WriteLine("Sum of odd numbers from 1 to 20: " + sum);
+    }
+}
